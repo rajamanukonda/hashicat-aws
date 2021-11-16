@@ -137,7 +137,7 @@ resource "aws_instance" "hashicat" {
 # destroying the VM. Do not do this in production.
 
 # If you need ongoing management (Day N) of your virtual machines a tool such
-# as Chef or Puppet is a better choice. These tools track the state of
+# rdas Chef or Puppet is a better choice. These tools track the state of
 # individual files and can keep them in the correct configuration.
 
 # Here we do the following steps:
